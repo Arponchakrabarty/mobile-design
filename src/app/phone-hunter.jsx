@@ -1,0 +1,66 @@
+export const usePhones = [{
+    id: "phone-001",
+    name: "iPhone 16 Pro Max",
+    brand: "Apple",
+    price: 159999,
+    image: "https://bbpcdn.pstatic.gr/bpimg44/2maNQ0/1SNW8Q_SX946Y946/1725956548/apple-iphone-16-pro-max-256gb.jpg",
+    rating: 4.9,
+    storage: "256GB",
+    ram: "8GB",
+    color: "Desert Titanium",
+    stock: 18,
+    featured: true
+  },
+  {
+    id: "phone-002",
+    name: "Samsung Galaxy S25 Ultra",
+    brand: "Samsung",
+    price: 149999,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCMeiw69V5TNVCnVQmFicN9M6jybaGhWj68l2AunNGhkJk_S1-X5d8McA&s=10",
+    rating: 4.8,
+    storage: "256GB",
+    ram: "12GB",
+    color: "Titanium Silver",
+    stock: 12,
+    featured: true
+  },
+  {
+    id: "phone-003",
+    name: "Google Pixel 9 Pro",
+    brand: "Google",
+    price: 109999,
+    image: "https://static01.galaxus.com/productimages/3/0/3/0/3/5/1/0/6/9/0/1/1/3/3/0/0/8/2e802447-6dde-4d09-9605-2437b1e9c16f_cropped.jpg_sea.jpeg",
+    rating: 4.7,
+    storage: "128GB",
+    ram: "16GB",
+    color: "Porcelain",
+    stock: 9,
+    featured: false
+  },
+  {
+    id: "phone-004",
+    name: "OnePlus 13 pro",
+    brand: "OnePlus",
+    price: 89999,
+    image: "https://www.overseaselectronics.com/images/stories/virtuemart/product/OnePlus13MidnightOcean1.jpg",
+    rating: 4.6,
+    storage: "512GB",
+    ram: "12GB",
+    color: "Midnight Ocean",
+    stock: 25,
+    featured: true
+  },
+  {
+    id: "phone-005",
+    name: "Xiaomi 14 Ultra",
+    brand: "Xiaomi",
+    price: 99999,
+    image: "https://i05.appmifile.com/193_item_it/23/02/2024/1e6384cd24d517521c1c85a72f871cbd.png?q=85&thumb=1",
+    rating: 4.5,
+    storage: "512GB",
+    ram: "16GB",
+    color: "White",
+    stock: 15,
+    featured: false
+  }
+];
