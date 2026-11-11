@@ -10,9 +10,9 @@ function PhoneDetails(){
    const PhoneDetails= newPhn.find((item)=> item.id===details)
 
    return<>
-   <div className="bg-white flex h-250 pl-50 pt-20  ">
+   <div className="bg-gray-100 flex h-250 pl-50 pt-20  ">
       <div>
-         <Image className="w-100 h-70" width={200} height={300} src={PhoneDetails.image} alt="{Phonedetails.name}"></Image>
+         <Image className="w-100 h-70 rounded-2xl" width={200} height={300} src={PhoneDetails.image} alt="{Phonedetails.name}"></Image>
       </div>
       <div>
       <div className="flex flex-col gap-3">
